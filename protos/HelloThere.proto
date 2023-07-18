@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package hellothere;
+
+service Play 
+{
+    rpc Attend (Role) returns (stream Line) {}
+}
+
+message Role
+{
+    string role = 1;
+}
+
+message Line
+{
+    string line = 1;
+}
