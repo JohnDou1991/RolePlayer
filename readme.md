@@ -11,10 +11,8 @@ RolePlayer - a Google RPC Demo
                  and waits for roles to be assigned.
     Client.exe - uses rpc stub, connects to the server and gains some role from server.
     Demo.exe - starts server, starts clients and assigns the roles to each one of theme.
-
     Then the scene is being played by server, it distributes lines among clients so that
     clients play their respective roles.
-
     Note: all binaries share the same std out.
 
 [Requirements]
